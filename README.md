@@ -11,7 +11,7 @@ For example when a method requires an object of type an interface, we can use an
 >   public final void setOnAction ( EventHandler< ActionEvent> value )
 
     
-    btn.setOnAction( new EventHandler< ActionEvent> {
+    btn.setOnAction( new EventHandler< ActionEvent>() {
         @override
         public void OnAction(ActionEvent evevnt) {
             // Something with event    
